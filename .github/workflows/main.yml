@@ -6,6 +6,7 @@ jobs:
     name: Hello world action
     runs-on: ubuntu-latest
     steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
