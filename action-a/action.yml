@@ -1,6 +1,7 @@
 name: "Hello Actions"
 description: "Greet someone"
 author: "octocat@github.com"
+icon: "fire"
 
 inputs:
   MY_NAME:
@@ -14,4 +15,4 @@ runs:
 
 branding:
   icon: "mic"
-  color: "purple"
+  color: "blue"
